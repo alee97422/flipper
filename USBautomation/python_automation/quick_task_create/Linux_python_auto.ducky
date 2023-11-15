@@ -1,0 +1,35 @@
+REM automate making a python project for quick throw away tasks i.e quick computation  & quick conversion of file
+
+
+DELAY 500
+REM Open terminal on Linux via Run Command
+DELAY 500
+ALT F2
+DELAY 500
+STRING terminal
+ENTER
+DELAY 1000
+STRING mkdir python_dummy_file_
+ENTER
+DELAY 500
+STRING cd python_dummy_file_
+ENTER
+DELAY 500
+REM now we make the python environment
+STRING python -m venv venv
+REM need to add a decent size delay here in order to allow for terminal to create the python env
+ENTER
+DELAY 10000
+STRING source venv/bin/activate
+ENTER
+DELAY 3500
+STRING pip install pip --upgrade
+ENTER
+REM adding some modules i use on a regular feel free to add your own or remove any but these are reletively quick to install also adding a fat delay
+STRING pip install tkinter ttkbootstrap matplotlib wordcloud streamlit jupyter
+DELAY 30000
+REM using nano as the text editor but once again feel free to edit this code  to add the editor that you like when im doing some random 
+REM programming i always use nano because its easy to just spin up a document to make a quick file conversion
+STRING nano
+
+ENTER
