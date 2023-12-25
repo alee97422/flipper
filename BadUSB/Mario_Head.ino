@@ -1,5 +1,7 @@
 #include "Keyboard.h"
 
+
+
 void setup() {
   Keyboard.begin();
 
@@ -39,6 +41,10 @@ void setup() {
   delay(500);
 
 }
+//flag part 2 of 2: lX0NvbW1pdHRlZA==
+//flag is in base64 in its current state
+//Feel free to look aroundlX0NvbW1pdHRlZA==
+
 
 
 void loop() {
