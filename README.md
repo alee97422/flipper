@@ -2,5 +2,4 @@
 flipper zero repository starting from day one 
 
 
-# Sources
-
+<!-- Its not here look for an italian game charchter -->
