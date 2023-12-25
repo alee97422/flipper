@@ -1,5 +1,6 @@
 #include <Keyboard.h>
-
+<!-- lol maybe commits CAN be misleading i only wrote here to waste your time -->
+  
 void setup() {
   delay(500);
   // Open terminal on Linux via Run Command
